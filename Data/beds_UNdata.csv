@@ -1,331 +1,326 @@
-"Country or Area","Year(s)","Value","Value Footnotes"
-"Afghanistan","2010","4",""
-"Afghanistan","2009","4",""
-"Albania","2009","28",""
-"Albania","2007","29",""
-"Algeria","2004","17","1"
-"Andorra","2009","25",""
-"Andorra","2007","26",""
-"Angola","2005","8","1"
-"Antigua and Barbuda","2010","22",""
-"Antigua and Barbuda","2009","22",""
-"Argentina","2010","45",""
-"Argentina","2000","41",""
-"Armenia","2009","37",""
-"Armenia","2007","41",""
-"Australia","2009","38",""
-"Austria","2009","77",""
-"Austria","2008","77",""
-"Azerbaijan","2009","75",""
-"Azerbaijan","2007","79",""
-"Bahamas","2009","31",""
-"Bahamas","2008","31",""
-"Bahrain","2009","18",""
-"Bahrain","2008","19",""
-"Bangladesh","2005","3",""
-"Barbados","2009","68",""
-"Barbados","2008","76",""
-"Belarus","2009","111",""
-"Belarus","2007","112",""
-"Belgium","2010","65",""
-"Belgium","2009","66",""
-"Belize","2010","12",""
-"Belize","2009","11","2"
-"Benin","2010","5",""
-"Benin","2005","5","1"
-"Bhutan","2011","18",""
-"Bhutan","2006","17",""
-"Bolivia (Plurinational State of)","2009","11",""
-"Bosnia and Herzegovina","2009","34",""
-"Bosnia and Herzegovina","2005","30",""
-"Botswana","2010","18",""
-"Botswana","2008","18","1"
-"Brazil","2010","24",""
-"Brazil","2009","24",""
-"Brunei Darussalam","2009","26",""
-"Brunei Darussalam","2008","27",""
-"Bulgaria","2009","66",""
-"Bulgaria","2008","65",""
-"Burkina Faso","2010","4",""
-"Burkina Faso","2006","9","1"
-"Burundi","2011","19",""
-"Burundi","2006","7","1"
-"Cabo Verde","2010","21",""
-"Cabo Verde","2008","21","1"
-"Cameroon","2010","13",""
-"Cameroon","2006","15","1"
-"Canada","2009","32",""
-"Canada","2008","34",""
-"Central African Republic","2011","10",""
-"Central African Republic","2006","12","1"
-"Chad","2005","4","1"
-"Chile","2010","21",""
-"Chile","2009","21",""
-"China","2009","42",""
-"Colombia","2007","10",""
-"Comoros","2006","22","1"
-"Congo","2005","16","1"
-"Cook Islands","2005","63",""
-"Costa Rica","2010","12",""
-"Costa Rica","2008","12",""
-"Côte d’Ivoire","2006","4","1"
-"Croatia","2009","54",""
-"Croatia","2007","55",""
-"Cuba","2010","59",""
-"Cuba","2009","59",""
-"Cyprus","2008","38",""
-"Cyprus","2006","37",""
-"Czech Republic","2009","71",""
-"Czech Republic","2008","72",""
-"Democratic People's Republic of Korea","2002","132",""
-"Democratic Republic of the Congo","2006","8","1"
-"Denmark","2009","35",""
-"Denmark","2008","36",""
-"Djibouti","2010","14",""
-"Dominica","2010","38",""
-"Dominica","2009","38",""
-"Dominican Republic","2010","16",""
-"Dominican Republic","2009","10","2"
-"Ecuador","2009","15",""
-"Ecuador","2008","15",""
-"Egypt","2010","17",""
-"Egypt","2009","17",""
-"El Salvador","2010","10",""
-"El Salvador","2009","11",""
-"Equatorial Guinea","2010","21",""
-"Equatorial Guinea","2009","19","2"
-"Eritrea","2011","7",""
-"Eritrea","2006","12","1"
-"Estonia","2009","54",""
-"Estonia","2008","57",""
-"Ethiopia","2011","63",""
-"Ethiopia","2008","2","2"
-"Fiji","2009","21",""
-"Fiji","2008","21",""
-"Finland","2009","62",""
-"Finland","2008","65",""
-"France","2009","69",""
-"France","2008","71",""
-"Gabon","2010","63",""
-"Gabon","2008","13","2"
-"Gambia","2011","11",""
-"Gambia","2009","11","1"
-"Georgia","2009","31",""
-"Georgia","2007","33",""
-"Germany","2009","82",""
-"Germany","2008","82",""
-"Ghana","2011","9",""
-"Ghana","2009","9","1"
-"Greece","2009","48",""
-"Greece","2008","48",""
-"Grenada","2009","24",""
-"Guatemala","2010","6",""
-"Guatemala","2009","6","2"
-"Guinea","2011","3",""
-"Guinea","2005","3","1"
-"Guinea-Bissau","2009","10","1"
-"Guyana","2009","20",""
-"Guyana","2007","19",""
-"Haiti","2007","13",""
-"Honduras","2010","8",""
-"Honduras","2009","8","2"
-"Hungary","2009","71",""
-"Hungary","2008","70",""
-"Iceland","2007","58",""
-"India","2005","9",""
-"Indonesia","2010","6",""
-"Indonesia","2002","6",""
-"Iran (Islamic Republic of)","2009","17",""
-"Iran (Islamic Republic of)","2006","14",""
-"Iraq","2010","13",""
-"Iraq","2009","13",""
-"Ireland","2008","49",""
-"Ireland","2007","52",""
-"Israel","2010","35",""
-"Israel","2007","58",""
-"Italy","2009","36",""
-"Italy","2008","37",""
-"Jamaica","2010","19",""
-"Jamaica","2009","17","2"
-"Japan","2009","137",""
-"Japan","2008","138",""
-"Jordan","2010","18",""
-"Jordan","2009","18",""
-"Kazakhstan","2009","76",""
-"Kazakhstan","2007","77",""
-"Kenya","2010","14",""
-"Kenya","2004","14","1"
-"Kiribati","2010","14",""
-"Kiribati","2009","15",""
-"Kuwait","2009","20",""
-"Kuwait","2008","18",""
-"Kyrgyzstan","2007","51",""
-"Lao People's Democratic Republic","2010","7",""
-"Lao People's Democratic Republic","2005","12",""
-"Latvia","2009","64",""
-"Lebanon","2009","35",""
-"Lesotho","2006","13","1"
-"Liberia","2010","8",""
-"Liberia","2009","7","1"
-"Libya","2009","37",""
-"Lithuania","2009","68",""
-"Lithuania","2008","68",""
-"Luxembourg","2009","56",""
-"Luxembourg","2008","56",""
-"Madagascar","2010","2",""
-"Madagascar","2005","3","1"
-"Malawi","2011","13",""
-"Malawi","2007","11","1"
-"Malaysia","2010","18",""
-"Malaysia","2009","18",""
-"Maldives","2009","43",""
-"Maldives","2005","26",""
-"Mali","2010","1",""
-"Mali","2008","6","3"
-"Malta","2010","45",""
-"Malta","2009","49",""
-"Marshall Islands","2010","27",""
-"Marshall Islands","2009","27",""
-"Mauritania","2006","4","1"
-"Mauritius","2011","34",""
-"Mauritius","2008","33","1"
-"Mexico","2009","16",""
-"Mexico","2008","16","2"
-"Micronesia (Federated States of)","2009","32",""
-"Mongolia","2010","58",""
-"Mongolia","2009","59",""
-"Montenegro","2009","39",""
-"Montenegro","2007","40",""
-"Morocco","2009","11",""
-"Mozambique","2011","7",""
-"Mozambique","2007","8","1"
-"Myanmar","2006","6",""
-"Namibia","2009","27","2"
-"Nauru","2010","50",""
-"Nauru","2007","35",""
-"Nepal","2006","50",""
-"Netherlands","2009","47",""
-"Netherlands","2008","43",""
-"New Zealand","2011","23",""
-"New Zealand","2002","62",""
-"Nicaragua","2010","8",""
-"Nicaragua","2008","9","2"
-"Niger","2005","3","1"
-"Nigeria","2004","5","1"
-"Niue","2006","52",""
-"Norway","2009","33",""
-"Norway","2008","35",""
-"Oman","2009","18",""
-"Oman","2008","19",""
-"Pakistan","2010","6",""
-"Pakistan","2009","6",""
-"Palau","2010","48",""
-"Palau","2009","49",""
-"Panama","2009","22",""
-"Paraguay","2010","13",""
-"Paraguay","2009","13",""
-"Peru","2010","15",""
-"Peru","2009","15",""
-"Philippines","2009","5",""
-"Philippines","2006","5",""
-"Poland","2009","67",""
-"Poland","2008","66",""
-"Portugal","2009","33",""
-"Portugal","2008","34",""
-"Qatar","2009","12",""
-"Qatar","2008","14",""
-"Republic of Korea","2009","103",""
-"Republic of Korea","2008","123",""
-"Republic of Moldova","2009","62",""
-"Republic of Moldova","2007","61",""
-"Romania","2009","66",""
-"Romania","2006","65",""
-"Russian Federation","2006","97",""
-"Rwanda","2006","16","1"
-"Saint Kitts and Nevis","2010","48",""
-"Saint Kitts and Nevis","2009","60",""
-"Saint Lucia","2009","15",""
-"Saint Vincent and the Grenadines","2010","26",""
-"Saint Vincent and the Grenadines","2007","30",""
-"Samoa","2005","10",""
-"Sao Tome and Principe","2011","29",""
-"Sao Tome and Principe","2006","32","1"
-"Saudi Arabia","2009","22",""
-"Saudi Arabia","2008","22",""
-"Senegal","2008","3","2"
-"Serbia","2009","54",""
-"Serbia","2007","54",""
-"Seychelles","2011","36",""
-"Seychelles","2009","39","1"
-"Sierra Leone","2006","4","1"
-"Singapore","2008","31",""
-"Slovakia","2009","65",""
-"Slovakia","2008","66",""
-"Slovenia","2009","46",""
-"Slovenia","2008","47",""
-"South Africa","2005","28","1"
-"Spain","2009","32",""
-"Spain","2008","32",""
-"Sri Lanka","2004","31",""
-"Sudan","2009","7",""
-"Sudan","2008","7",""
-"Suriname","2009","26",""
-"Suriname","2007","31",""
-"Swaziland","2011","21",""
-"Swaziland","2006","21","1"
-"Sweden","2009","28",""
-"Switzerland","2009","52",""
-"Switzerland","2008","53",""
-"Syrian Arab Republic","2010","15",""
-"Syrian Arab Republic","2009","15",""
-"Tajikistan","2009","52",""
-"Tajikistan","2006","61",""
-"Thailand","2010","21",""
-"Thailand","2002","22",""
-"The former Yugoslav Republic of Macedonia","2009","45",""
-"The former Yugoslav Republic of Macedonia","2006","46",""
-"Timor-Leste","2010","59",""
-"Togo","2011","7",""
-"Togo","2005","9","1"
-"Tonga","2010","26",""
-"Tonga","2008","24",""
-"Trinidad and Tobago","2009","26",""
-"Trinidad and Tobago","2008","25",""
-"Tunisia","2010","21",""
-"Tunisia","2009","21",""
-"Turkey","2009","25",""
-"Turkey","2008","24",""
-"Turkmenistan","2009","40",""
-"Turkmenistan","2007","41",""
-"Tuvalu","2001","56",""
-"Uganda","2010","5",""
-"Uganda","2009","4","1"
-"Ukraine","2009","87",""
-"Ukraine","2006","87",""
-"United Arab Emirates","2008","19",""
-"United Kingdom","2009","33",""
-"United Kingdom","2008","34",""
-"United Republic of Tanzania","2010","7",""
-"United Republic of Tanzania","2006","11","1"
-"United States of America","2009","30",""
-"United States of America","2008","31",""
-"Uruguay","2010","12",""
-"Uruguay","2007","29","2"
-"Uzbekistan","2009","46",""
-"Uzbekistan","2007","48",""
-"Vanuatu","2008","17",""
-"Venezuela (Bolivarian Republic of)","2009","11",""
-"Venezuela (Bolivarian Republic of)","2007","13","2"
-"Viet Nam","2009","31",""
-"Viet Nam","2008","29",""
-"Yemen","2010","7",""
-"Yemen","2009","7",""
-"Zambia","2010","20",""
-"Zambia","2008","19","1"
-"Zimbabwe","2011","17",""
-"Zimbabwe","2006","30","1"
-
-"footnoteSeqID","Footnote"
-"1","Hospital beds include inpatient and maternity beds, but not cots and delivery beds."
-"2","Refers to the public sector only."
-"3","Refers to tertiary public-hospital beds only."
+"","country_area","years","beds"
+"1","Afghanistan",2010,4
+"2","Afghanistan",2009,4
+"3","Albania",2009,28
+"4","Albania",2007,29
+"5","Algeria",2004,17
+"6","Andorra",2009,25
+"7","Andorra",2007,26
+"8","Angola",2005,8
+"9","Antigua and Barbuda",2010,22
+"10","Antigua and Barbuda",2009,22
+"11","Argentina",2010,45
+"12","Argentina",2000,41
+"13","Armenia",2009,37
+"14","Armenia",2007,41
+"15","Australia",2009,38
+"16","Austria",2009,77
+"17","Austria",2008,77
+"18","Azerbaijan",2009,75
+"19","Azerbaijan",2007,79
+"20","Bahamas",2009,31
+"21","Bahamas",2008,31
+"22","Bahrain",2009,18
+"23","Bahrain",2008,19
+"24","Bangladesh",2005,3
+"25","Barbados",2009,68
+"26","Barbados",2008,76
+"27","Belarus",2009,111
+"28","Belarus",2007,112
+"29","Belgium",2010,65
+"30","Belgium",2009,66
+"31","Belize",2010,12
+"32","Belize",2009,11
+"33","Benin",2010,5
+"34","Benin",2005,5
+"35","Bhutan",2011,18
+"36","Bhutan",2006,17
+"37","Bolivia (Plurinational State of)",2009,11
+"38","Bosnia and Herzegovina",2009,34
+"39","Bosnia and Herzegovina",2005,30
+"40","Botswana",2010,18
+"41","Botswana",2008,18
+"42","Brazil",2010,24
+"43","Brazil",2009,24
+"44","Brunei Darussalam",2009,26
+"45","Brunei Darussalam",2008,27
+"46","Bulgaria",2009,66
+"47","Bulgaria",2008,65
+"48","Burkina Faso",2010,4
+"49","Burkina Faso",2006,9
+"50","Burundi",2011,19
+"51","Burundi",2006,7
+"52","Cabo Verde",2010,21
+"53","Cabo Verde",2008,21
+"54","Cameroon",2010,13
+"55","Cameroon",2006,15
+"56","Canada",2009,32
+"57","Canada",2008,34
+"58","Central African Republic",2011,10
+"59","Central African Republic",2006,12
+"60","Chad",2005,4
+"61","Chile",2010,21
+"62","Chile",2009,21
+"63","China",2009,42
+"64","Colombia",2007,10
+"65","Comoros",2006,22
+"66","Congo",2005,16
+"67","Cook Islands",2005,63
+"68","Costa Rica",2010,12
+"69","Costa Rica",2008,12
+"70","Côte d’Ivoire",2006,4
+"71","Croatia",2009,54
+"72","Croatia",2007,55
+"73","Cuba",2010,59
+"74","Cuba",2009,59
+"75","Cyprus",2008,38
+"76","Cyprus",2006,37
+"77","Czech Republic",2009,71
+"78","Czech Republic",2008,72
+"79","Democratic People's Republic of Korea",2002,132
+"80","Democratic Republic of the Congo",2006,8
+"81","Denmark",2009,35
+"82","Denmark",2008,36
+"83","Djibouti",2010,14
+"84","Dominica",2010,38
+"85","Dominica",2009,38
+"86","Dominican Republic",2010,16
+"87","Dominican Republic",2009,10
+"88","Ecuador",2009,15
+"89","Ecuador",2008,15
+"90","Egypt",2010,17
+"91","Egypt",2009,17
+"92","El Salvador",2010,10
+"93","El Salvador",2009,11
+"94","Equatorial Guinea",2010,21
+"95","Equatorial Guinea",2009,19
+"96","Eritrea",2011,7
+"97","Eritrea",2006,12
+"98","Estonia",2009,54
+"99","Estonia",2008,57
+"100","Ethiopia",2011,63
+"101","Ethiopia",2008,2
+"102","Fiji",2009,21
+"103","Fiji",2008,21
+"104","Finland",2009,62
+"105","Finland",2008,65
+"106","France",2009,69
+"107","France",2008,71
+"108","Gabon",2010,63
+"109","Gabon",2008,13
+"110","Gambia",2011,11
+"111","Gambia",2009,11
+"112","Georgia",2009,31
+"113","Georgia",2007,33
+"114","Germany",2009,82
+"115","Germany",2008,82
+"116","Ghana",2011,9
+"117","Ghana",2009,9
+"118","Greece",2009,48
+"119","Greece",2008,48
+"120","Grenada",2009,24
+"121","Guatemala",2010,6
+"122","Guatemala",2009,6
+"123","Guinea",2011,3
+"124","Guinea",2005,3
+"125","Guinea-Bissau",2009,10
+"126","Guyana",2009,20
+"127","Guyana",2007,19
+"128","Haiti",2007,13
+"129","Honduras",2010,8
+"130","Honduras",2009,8
+"131","Hungary",2009,71
+"132","Hungary",2008,70
+"133","Iceland",2007,58
+"134","India",2005,9
+"135","Indonesia",2010,6
+"136","Indonesia",2002,6
+"137","Iran (Islamic Republic of)",2009,17
+"138","Iran (Islamic Republic of)",2006,14
+"139","Iraq",2010,13
+"140","Iraq",2009,13
+"141","Ireland",2008,49
+"142","Ireland",2007,52
+"143","Israel",2010,35
+"144","Israel",2007,58
+"145","Italy",2009,36
+"146","Italy",2008,37
+"147","Jamaica",2010,19
+"148","Jamaica",2009,17
+"149","Japan",2009,137
+"150","Japan",2008,138
+"151","Jordan",2010,18
+"152","Jordan",2009,18
+"153","Kazakhstan",2009,76
+"154","Kazakhstan",2007,77
+"155","Kenya",2010,14
+"156","Kenya",2004,14
+"157","Kiribati",2010,14
+"158","Kiribati",2009,15
+"159","Kuwait",2009,20
+"160","Kuwait",2008,18
+"161","Kyrgyzstan",2007,51
+"162","Lao People's Democratic Republic",2010,7
+"163","Lao People's Democratic Republic",2005,12
+"164","Latvia",2009,64
+"165","Lebanon",2009,35
+"166","Lesotho",2006,13
+"167","Liberia",2010,8
+"168","Liberia",2009,7
+"169","Libya",2009,37
+"170","Lithuania",2009,68
+"171","Lithuania",2008,68
+"172","Luxembourg",2009,56
+"173","Luxembourg",2008,56
+"174","Madagascar",2010,2
+"175","Madagascar",2005,3
+"176","Malawi",2011,13
+"177","Malawi",2007,11
+"178","Malaysia",2010,18
+"179","Malaysia",2009,18
+"180","Maldives",2009,43
+"181","Maldives",2005,26
+"182","Mali",2010,1
+"183","Mali",2008,6
+"184","Malta",2010,45
+"185","Malta",2009,49
+"186","Marshall Islands",2010,27
+"187","Marshall Islands",2009,27
+"188","Mauritania",2006,4
+"189","Mauritius",2011,34
+"190","Mauritius",2008,33
+"191","Mexico",2009,16
+"192","Mexico",2008,16
+"193","Micronesia (Federated States of)",2009,32
+"194","Mongolia",2010,58
+"195","Mongolia",2009,59
+"196","Montenegro",2009,39
+"197","Montenegro",2007,40
+"198","Morocco",2009,11
+"199","Mozambique",2011,7
+"200","Mozambique",2007,8
+"201","Myanmar",2006,6
+"202","Namibia",2009,27
+"203","Nauru",2010,50
+"204","Nauru",2007,35
+"205","Nepal",2006,50
+"206","Netherlands",2009,47
+"207","Netherlands",2008,43
+"208","New Zealand",2011,23
+"209","New Zealand",2002,62
+"210","Nicaragua",2010,8
+"211","Nicaragua",2008,9
+"212","Niger",2005,3
+"213","Nigeria",2004,5
+"214","Niue",2006,52
+"215","Norway",2009,33
+"216","Norway",2008,35
+"217","Oman",2009,18
+"218","Oman",2008,19
+"219","Pakistan",2010,6
+"220","Pakistan",2009,6
+"221","Palau",2010,48
+"222","Palau",2009,49
+"223","Panama",2009,22
+"224","Paraguay",2010,13
+"225","Paraguay",2009,13
+"226","Peru",2010,15
+"227","Peru",2009,15
+"228","Philippines",2009,5
+"229","Philippines",2006,5
+"230","Poland",2009,67
+"231","Poland",2008,66
+"232","Portugal",2009,33
+"233","Portugal",2008,34
+"234","Qatar",2009,12
+"235","Qatar",2008,14
+"236","Republic of Korea",2009,103
+"237","Republic of Korea",2008,123
+"238","Republic of Moldova",2009,62
+"239","Republic of Moldova",2007,61
+"240","Romania",2009,66
+"241","Romania",2006,65
+"242","Russian Federation",2006,97
+"243","Rwanda",2006,16
+"244","Saint Kitts and Nevis",2010,48
+"245","Saint Kitts and Nevis",2009,60
+"246","Saint Lucia",2009,15
+"247","Saint Vincent and the Grenadines",2010,26
+"248","Saint Vincent and the Grenadines",2007,30
+"249","Samoa",2005,10
+"250","Sao Tome and Principe",2011,29
+"251","Sao Tome and Principe",2006,32
+"252","Saudi Arabia",2009,22
+"253","Saudi Arabia",2008,22
+"254","Senegal",2008,3
+"255","Serbia",2009,54
+"256","Serbia",2007,54
+"257","Seychelles",2011,36
+"258","Seychelles",2009,39
+"259","Sierra Leone",2006,4
+"260","Singapore",2008,31
+"261","Slovakia",2009,65
+"262","Slovakia",2008,66
+"263","Slovenia",2009,46
+"264","Slovenia",2008,47
+"265","South Africa",2005,28
+"266","Spain",2009,32
+"267","Spain",2008,32
+"268","Sri Lanka",2004,31
+"269","Sudan",2009,7
+"270","Sudan",2008,7
+"271","Suriname",2009,26
+"272","Suriname",2007,31
+"273","Swaziland",2011,21
+"274","Swaziland",2006,21
+"275","Sweden",2009,28
+"276","Switzerland",2009,52
+"277","Switzerland",2008,53
+"278","Syrian Arab Republic",2010,15
+"279","Syrian Arab Republic",2009,15
+"280","Tajikistan",2009,52
+"281","Tajikistan",2006,61
+"282","Thailand",2010,21
+"283","Thailand",2002,22
+"284","The former Yugoslav Republic of Macedonia",2009,45
+"285","The former Yugoslav Republic of Macedonia",2006,46
+"286","Timor-Leste",2010,59
+"287","Togo",2011,7
+"288","Togo",2005,9
+"289","Tonga",2010,26
+"290","Tonga",2008,24
+"291","Trinidad and Tobago",2009,26
+"292","Trinidad and Tobago",2008,25
+"293","Tunisia",2010,21
+"294","Tunisia",2009,21
+"295","Turkey",2009,25
+"296","Turkey",2008,24
+"297","Turkmenistan",2009,40
+"298","Turkmenistan",2007,41
+"299","Tuvalu",2001,56
+"300","Uganda",2010,5
+"301","Uganda",2009,4
+"302","Ukraine",2009,87
+"303","Ukraine",2006,87
+"304","United Arab Emirates",2008,19
+"305","United Kingdom",2009,33
+"306","United Kingdom",2008,34
+"307","United Republic of Tanzania",2010,7
+"308","United Republic of Tanzania",2006,11
+"309","United States of America",2009,30
+"310","United States of America",2008,31
+"311","Uruguay",2010,12
+"312","Uruguay",2007,29
+"313","Uzbekistan",2009,46
+"314","Uzbekistan",2007,48
+"315","Vanuatu",2008,17
+"316","Venezuela (Bolivarian Republic of)",2009,11
+"317","Venezuela (Bolivarian Republic of)",2007,13
+"318","Viet Nam",2009,31
+"319","Viet Nam",2008,29
+"320","Yemen",2010,7
+"321","Yemen",2009,7
+"322","Zambia",2010,20
+"323","Zambia",2008,19
+"324","Zimbabwe",2011,17
+"325","Zimbabwe",2006,30

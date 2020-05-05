@@ -1,6 +1,8 @@
 library(dplyr)
 library(ggplot2)
 
+#CLEANING
+
 data = read.csv("~/Documents/School/Grad/Q3/CS472/COVID19_projections/Data/beds_UNdata.csv")
 data = data[,-4] #remove col 4
 data = data[1:(nrow(data)-4),] #remove footnote rows
@@ -8,6 +10,12 @@ names(data) = c("country_area", "years", "beds")
 apply(data, 2, typeof)
 data$years = as.numeric(as.character(data$years))
 data$beds = as.numeric(as.character(data$beds))
+
+write.csv(data, file = "~/Documents/School/Grad/Q3/CS472/COVID19_projections/Data/beds_UNdata.csv")
+
+
+
+#EXPLORATION
 
 #Line plot for changes in num of beds per country
 data %>%

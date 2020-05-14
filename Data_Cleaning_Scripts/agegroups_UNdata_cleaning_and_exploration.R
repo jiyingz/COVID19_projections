@@ -6,6 +6,7 @@ data = data[(data$Sex == "Both Sexes" &
                data$Age != "" &
                data$Age != "Unknown"),]
 data = data[,-10] #remove last col
+data = data[!grepl("-",data$Age),] #remove ranges
 
 data$Age = as.character(data$Age)
 
@@ -28,5 +29,10 @@ data = data[idx,]
 data = data %>% select(c("Country.or.Area", "Year", "Age", "Value"))
 names(data) = c("country_area", "year", "agegroup", "pop")
   
+#Aggregate counts
+data = data %>%
+        group_by(country_area, year, agegroup) %>%
+        summarise(pop = sum(pop))
+
 write.csv(data, file = "~/Documents/School/Grad/Q3/CS472/COVID19_projections/Data/agegroups_UNdata.csv")
 

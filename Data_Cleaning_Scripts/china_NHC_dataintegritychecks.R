@@ -7,3 +7,9 @@ names(data)
 
 #Check if new cases sum up to total
 sum((cumsum(data$confirmed_new) + 214) != data$confirmed_ttl)
+
+#Note: some of the data doesn't add up!
+
+#Interpolate new severe cases where possible
+
+

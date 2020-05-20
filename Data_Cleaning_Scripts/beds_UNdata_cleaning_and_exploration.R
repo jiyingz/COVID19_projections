@@ -3,16 +3,12 @@ library(ggplot2)
 
 #CLEANING
 
-data = read.csv("~/Documents/School/Grad/Q3/CS472/COVID19_projections/Data/beds_UNdata.csv")
-data = data[,-4] #remove col 4
-data = data[1:(nrow(data)-4),] #remove footnote rows
+data = read.csv("~/Downloads/UNdata_Export_20200520_060409390.csv")
+data = data[1:(nrow(data)-4),-4] #remove footnotes
 names(data) = c("country_area", "years", "beds")
-apply(data, 2, typeof)
+data$country_area = as.character(data$country_area)
 data$years = as.numeric(as.character(data$years))
 data$beds = as.numeric(as.character(data$beds))
-
-write.csv(data, file = "~/Documents/School/Grad/Q3/CS472/COVID19_projections/Data/beds_UNdata.csv")
-
 
 
 #EXPLORATION
@@ -30,4 +26,18 @@ data %>%
   arrange(desc(diff))#there's generally not a huge increase in beds per 10k ppl over half decades... 
 
 
+
+#
+data_rec = data %>% 
+            group_by(country_area) %>%
+            arrange(desc(years)) %>%
+            slice(1) %>%
+            dplyr::select(country_area, beds)
   
+data_rec$country_area[which(data_rec$country_area == "Democratic People's Republic of Korea")] = "South Korea"
+data_rec$country_area[which(data_rec$country_area == "United Kingdom")] = "UK"
+data_rec$country_area[which(data_rec$country_area == "United States of America")] = "US"
+  
+  
+  
+write.csv(data_rec, file = "~/Documents/School/Grad/Q3/CS472/COVID19_projections/Data/beds_UNdata.csv")

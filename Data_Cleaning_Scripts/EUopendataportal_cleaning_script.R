@@ -13,5 +13,7 @@ df$countriesAndTerritories = gsub("_", " ", df$countriesAndTerritories)
 df$countriesAndTerritories[which(df$countriesAndTerritories == "United Kingdom")] = "UK"
 df$countriesAndTerritories[which(df$countriesAndTerritories == "United States of America")] = "US"
 
+names(df) = c("date", "country", "cases_ttl", "deaths_ttl")
+
 write.csv(df, file = "~/Documents/School/Grad/Q3/CS472/COVID19_projections/Data/world_cases_deaths_EUopendataportal.csv")
 

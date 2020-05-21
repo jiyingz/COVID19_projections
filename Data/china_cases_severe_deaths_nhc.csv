@@ -1,5 +1,5 @@
 country,date,confirmed_new,confirmed_ttl,suspected_new,suspected_ttl,severe_new,severe_ttl,medical_observation,deaths_new,deaths_ttl,recovery_new,recovery_ttl,imported_new,imported_ttl,asymptomatic_new,asymptomatic_ttl
-China,1/21/20,77,291,27,54,NA,NA,922,NA,NA,NA,NA,NA,NA,NA,NA
+China,1/21/20,77,291,27,54,NA,NA,922,NA,0,NA,NA,NA,NA,NA,NA
 China,1/22/20,149,440,26,37,NA,NA,1394,3,9,NA,NA,NA,NA,NA,NA
 China,1/23/20,131,571,257,393,NA,95,4928,8,17,NA,NA,NA,NA,NA,NA
 China,1/24/20,259,830,680,1072,82,177,8420,8,25,6,NA,NA,NA,NA,NA

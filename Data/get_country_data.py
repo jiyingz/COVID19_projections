@@ -3,12 +3,12 @@ import pandas as pd
 
 
 def output_country_data(country):
-   world_data = pd.read_csv("world_cases_deaths_recovered_JHU.csv")
+   world_data = pd.read_csv("owid_data.csv")
    country_data = world_data.loc[world_data['country'] == country]
    if country_data.empty:
       print("Error:", country, "does not exist in the dataset")
    else:
-      country_data.to_csv("./" + str(country) + "_data.csv")
+      country_data.to_csv("./" + str(country) + "_owid_data.csv", index = False)
 
 def main(argv):
    country = ''

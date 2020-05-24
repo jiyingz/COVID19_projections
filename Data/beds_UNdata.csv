@@ -1,188 +1,188 @@
-"","country_area","beds"
-"1","Afghanistan",4
-"2","Albania",28
-"3","Algeria",17
-"4","Andorra",25
-"5","Angola",8
-"6","Antigua and Barbuda",22
-"7","Argentina",45
-"8","Armenia",37
-"9","Australia",38
-"10","Austria",77
-"11","Azerbaijan",75
-"12","Bahamas",31
-"13","Bahrain",18
-"14","Bangladesh",3
-"15","Barbados",68
-"16","Belarus",111
-"17","Belgium",65
-"18","Belize",12
-"19","Benin",5
-"20","Bhutan",18
-"21","Bolivia (Plurinational State of)",11
-"22","Bosnia and Herzegovina",34
-"23","Botswana",18
-"24","Brazil",24
-"25","Brunei Darussalam",26
-"26","Bulgaria",66
-"27","Burkina Faso",4
-"28","Burundi",19
-"29","Cabo Verde",21
-"30","Cameroon",13
-"31","Canada",32
-"32","Central African Republic",10
-"33","Chad",4
-"34","Chile",21
-"35","China",42
-"36","Colombia",10
-"37","Comoros",22
-"38","Congo",16
-"39","Cook Islands",63
-"40","Costa Rica",12
-"41","Côte d’Ivoire",4
-"42","Croatia",54
-"43","Cuba",59
-"44","Cyprus",38
-"45","Czech Republic",71
-"46","South Korea",132
-"47","Democratic Republic of the Congo",8
-"48","Denmark",35
-"49","Djibouti",14
-"50","Dominica",38
-"51","Dominican Republic",16
-"52","Ecuador",15
-"53","Egypt",17
-"54","El Salvador",10
-"55","Equatorial Guinea",21
-"56","Eritrea",7
-"57","Estonia",54
-"58","Ethiopia",63
-"59","Fiji",21
-"60","Finland",62
-"61","France",69
-"62","Gabon",63
-"63","Gambia",11
-"64","Georgia",31
-"65","Germany",82
-"66","Ghana",9
-"67","Greece",48
-"68","Grenada",24
-"69","Guatemala",6
-"70","Guinea",3
-"71","Guinea-Bissau",10
-"72","Guyana",20
-"73","Haiti",13
-"74","Honduras",8
-"75","Hungary",71
-"76","Iceland",58
-"77","India",9
-"78","Indonesia",6
-"79","Iran (Islamic Republic of)",17
-"80","Iraq",13
-"81","Ireland",49
-"82","Israel",35
-"83","Italy",36
-"84","Jamaica",19
-"85","Japan",137
-"86","Jordan",18
-"87","Kazakhstan",76
-"88","Kenya",14
-"89","Kiribati",14
-"90","Kuwait",20
-"91","Kyrgyzstan",51
-"92","Lao People's Democratic Republic",7
-"93","Latvia",64
-"94","Lebanon",35
-"95","Lesotho",13
-"96","Liberia",8
-"97","Libya",37
-"98","Lithuania",68
-"99","Luxembourg",56
-"100","Madagascar",2
-"101","Malawi",13
-"102","Malaysia",18
-"103","Maldives",43
-"104","Mali",1
-"105","Malta",45
-"106","Marshall Islands",27
-"107","Mauritania",4
-"108","Mauritius",34
-"109","Mexico",16
-"110","Micronesia (Federated States of)",32
-"111","Mongolia",58
-"112","Montenegro",39
-"113","Morocco",11
-"114","Mozambique",7
-"115","Myanmar",6
-"116","Namibia",27
-"117","Nauru",50
-"118","Nepal",50
-"119","Netherlands",47
-"120","New Zealand",23
-"121","Nicaragua",8
-"122","Niger",3
-"123","Nigeria",5
-"124","Niue",52
-"125","Norway",33
-"126","Oman",18
-"127","Pakistan",6
-"128","Palau",48
-"129","Panama",22
-"130","Paraguay",13
-"131","Peru",15
-"132","Philippines",5
-"133","Poland",67
-"134","Portugal",33
-"135","Qatar",12
-"136","Republic of Korea",103
-"137","Republic of Moldova",62
-"138","Romania",66
-"139","Russian Federation",97
-"140","Rwanda",16
-"141","Saint Kitts and Nevis",48
-"142","Saint Lucia",15
-"143","Saint Vincent and the Grenadines",26
-"144","Samoa",10
-"145","Sao Tome and Principe",29
-"146","Saudi Arabia",22
-"147","Senegal",3
-"148","Serbia",54
-"149","Seychelles",36
-"150","Sierra Leone",4
-"151","Singapore",31
-"152","Slovakia",65
-"153","Slovenia",46
-"154","South Africa",28
-"155","Spain",32
-"156","Sri Lanka",31
-"157","Sudan",7
-"158","Suriname",26
-"159","Swaziland",21
-"160","Sweden",28
-"161","Switzerland",52
-"162","Syrian Arab Republic",15
-"163","Tajikistan",52
-"164","Thailand",21
-"165","The former Yugoslav Republic of Macedonia",45
-"166","Timor-Leste",59
-"167","Togo",7
-"168","Tonga",26
-"169","Trinidad and Tobago",26
-"170","Tunisia",21
-"171","Turkey",25
-"172","Turkmenistan",40
-"173","Tuvalu",56
-"174","Uganda",5
-"175","Ukraine",87
-"176","United Arab Emirates",19
-"177","UK",33
-"178","United Republic of Tanzania",7
-"179","US",30
-"180","Uruguay",12
-"181","Uzbekistan",46
-"182","Vanuatu",17
-"183","Venezuela (Bolivarian Republic of)",11
-"184","Viet Nam",31
-"185","Yemen",7
-"186","Zambia",20
-"187","Zimbabwe",17
+,country_area,beds
+1,Afghanistan,4
+2,Albania,28
+3,Algeria,17
+4,Andorra,25
+5,Angola,8
+6,Antigua and Barbuda,22
+7,Argentina,45
+8,Armenia,37
+9,Australia,38
+10,Austria,77
+11,Azerbaijan,75
+12,Bahamas,31
+13,Bahrain,18
+14,Bangladesh,3
+15,Barbados,68
+16,Belarus,111
+17,Belgium,65
+18,Belize,12
+19,Benin,5
+20,Bhutan,18
+21,Bolivia (Plurinational State of),11
+22,Bosnia and Herzegovina,34
+23,Botswana,18
+24,Brazil,24
+25,Brunei Darussalam,26
+26,Bulgaria,66
+27,Burkina Faso,4
+28,Burundi,19
+29,Cabo Verde,21
+30,Cameroon,13
+31,Canada,32
+32,Central African Republic,10
+33,Chad,4
+34,Chile,21
+35,China,42
+36,Colombia,10
+37,Comoros,22
+38,Congo,16
+39,Cook Islands,63
+40,Costa Rica,12
+41,Côte d’Ivoire,4
+42,Croatia,54
+43,Cuba,59
+44,Cyprus,38
+45,Czech Republic,71
+46,South Korea,132
+47,Democratic Republic of the Congo,8
+48,Denmark,35
+49,Djibouti,14
+50,Dominica,38
+51,Dominican Republic,16
+52,Ecuador,15
+53,Egypt,17
+54,El Salvador,10
+55,Equatorial Guinea,21
+56,Eritrea,7
+57,Estonia,54
+58,Ethiopia,63
+59,Fiji,21
+60,Finland,62
+61,France,69
+62,Gabon,63
+63,Gambia,11
+64,Georgia,31
+65,Germany,82
+66,Ghana,9
+67,Greece,48
+68,Grenada,24
+69,Guatemala,6
+70,Guinea,3
+71,Guinea-Bissau,10
+72,Guyana,20
+73,Haiti,13
+74,Honduras,8
+75,Hungary,71
+76,Iceland,58
+77,India,9
+78,Indonesia,6
+79,Iran (Islamic Republic of),17
+80,Iraq,13
+81,Ireland,49
+82,Israel,35
+83,Italy,36
+84,Jamaica,19
+85,Japan,137
+86,Jordan,18
+87,Kazakhstan,76
+88,Kenya,14
+89,Kiribati,14
+90,Kuwait,20
+91,Kyrgyzstan,51
+92,Lao People's Democratic Republic,7
+93,Latvia,64
+94,Lebanon,35
+95,Lesotho,13
+96,Liberia,8
+97,Libya,37
+98,Lithuania,68
+99,Luxembourg,56
+100,Madagascar,2
+101,Malawi,13
+102,Malaysia,18
+103,Maldives,43
+104,Mali,1
+105,Malta,45
+106,Marshall Islands,27
+107,Mauritania,4
+108,Mauritius,34
+109,Mexico,16
+110,Micronesia (Federated States of),32
+111,Mongolia,58
+112,Montenegro,39
+113,Morocco,11
+114,Mozambique,7
+115,Myanmar,6
+116,Namibia,27
+117,Nauru,50
+118,Nepal,50
+119,Netherlands,39.9
+120,New Zealand,23
+121,Nicaragua,8
+122,Niger,3
+123,Nigeria,5
+124,Niue,52
+125,Norway,33
+126,Oman,18
+127,Pakistan,6
+128,Palau,48
+129,Panama,22
+130,Paraguay,13
+131,Peru,15
+132,Philippines,5
+133,Poland,67
+134,Portugal,33
+135,Qatar,12
+136,Republic of Korea,103
+137,Republic of Moldova,62
+138,Romania,66
+139,Russian Federation,97
+140,Rwanda,16
+141,Saint Kitts and Nevis,48
+142,Saint Lucia,15
+143,Saint Vincent and the Grenadines,26
+144,Samoa,10
+145,Sao Tome and Principe,29
+146,Saudi Arabia,22
+147,Senegal,3
+148,Serbia,54
+149,Seychelles,36
+150,Sierra Leone,4
+151,Singapore,31
+152,Slovakia,65
+153,Slovenia,46
+154,South Africa,28
+155,Spain,32
+156,Sri Lanka,31
+157,Sudan,7
+158,Suriname,26
+159,Swaziland,21
+160,Sweden,28
+161,Switzerland,52
+162,Syrian Arab Republic,15
+163,Tajikistan,52
+164,Thailand,21
+165,The former Yugoslav Republic of Macedonia,45
+166,Timor-Leste,59
+167,Togo,7
+168,Tonga,26
+169,Trinidad and Tobago,26
+170,Tunisia,21
+171,Turkey,25
+172,Turkmenistan,40
+173,Tuvalu,56
+174,Uganda,5
+175,Ukraine,87
+176,United Arab Emirates,19
+177,UK,33
+178,United Republic of Tanzania,7
+179,US,30
+180,Uruguay,12
+181,Uzbekistan,46
+182,Vanuatu,17
+183,Venezuela (Bolivarian Republic of),11
+184,Viet Nam,31
+185,Yemen,7
+186,Zambia,20
+187,Zimbabwe,17

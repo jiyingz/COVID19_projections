@@ -73,6 +73,7 @@ neth %>%
 #CHINA
 china = read.csv("~/Documents/School/Grad/Q3/CS472/COVID19_projections/Data/china_cases_severe_deaths_nhc.csv") %>%
   dplyr::select(date, severe_ttl, deaths_ttl)
+china = china[1:80,]
 
 china$date = ymd(china$date)
 china$dateind = as.numeric(rownames(china))

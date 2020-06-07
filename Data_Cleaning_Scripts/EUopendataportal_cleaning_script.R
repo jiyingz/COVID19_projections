@@ -1,5 +1,5 @@
 #Data source: https://data.europa.eu/euodp/en/data/dataset/covid-19-coronavirus-data
-df = read.csv("~/Downloads/data_europa_covid19cases", sep = ",")
+df = read.csv("~/Downloads/download", sep = ",")
 
 df = df %>% 
   dplyr::select(dateRep, countriesAndTerritories, cases, deaths) %>%

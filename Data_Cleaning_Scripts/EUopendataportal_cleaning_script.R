@@ -1,4 +1,6 @@
 #Data source: https://data.europa.eu/euodp/en/data/dataset/covid-19-coronavirus-data
+#Download the first csv file: "COVID-19 cases worldwide"
+library(dplyr)
 df = read.csv("~/Downloads/download", sep = ",")
 
 df = df %>% 

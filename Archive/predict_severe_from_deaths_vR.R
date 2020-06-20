@@ -3,7 +3,7 @@ library(tidyverse)
 library(lubridate)
 
 #FRANCE
-france = read.csv("~/Documents/School/Grad/Q3/CS472/COVID19_projections/Data/france_cases_deaths_severe_recovered_ministresante.csv")
+france = read.csv("~/.../Data/france_cases_deaths_severe_recovered_ministresante.csv")
 
 france$date = ymd(france$date)
 france$dateind = as.numeric(rownames(france))
@@ -13,7 +13,7 @@ france_deaths$death_slope = NA
 
 window_size = 15 #num days to slide moving window over
 lag_days = 3
-hosp_ability = 15
+c = 15
 for(i in window_size:nrow(france_deaths)) {
   lm = lm(deaths_ttl ~ dateind, data = france_deaths[(i-(window_size-1)):i,])
   france_deaths$death_slope[i-lag_days] = lm$coeff[2]
@@ -25,7 +25,7 @@ france %>%
   ggplot() +
   geom_line(aes(x = date, y = severe_ttl), color = "red") +
   geom_line(aes(x = date, y = deaths_ttl), color = "blue") +
-  geom_line(aes(x = date, y = death_slope*hosp_ability), color = "green") +
+  geom_line(aes(x = date, y = death_slope*c), color = "green") +
   labs(title = "Severe Case Prediction from Deaths: France", 
        subtitle = "Blue = Ttl Deaths, Red = Ttl Severe, Green = Predicted Severe",
        x = "Date", y = "Cases") +
@@ -47,7 +47,7 @@ neth_deaths$death_slope = NA
 
 window_size = 15 #num days to slide moving window over
 lag_days = 3
-hosp_ability = 50
+c = 50
 for(i in window_size:nrow(neth_deaths)) {
   lm = lm(deaths ~ dateind, data = neth_deaths[(i-(window_size-1)):i,])
   neth_deaths$death_slope[i-lag_days] = lm$coeff[2]
@@ -59,7 +59,7 @@ neth %>%
   ggplot() +
   geom_line(aes(x = date, y = deaths), color = "blue") +
   geom_line(aes(x = date, y = hospitalizations_ttl), color = "red") +
-  geom_line(aes(x = date, y = death_slope*hosp_ability), color = "green") +
+  geom_line(aes(x = date, y = death_slope*c), color = "green") +
   labs(title = "Severe Case Prediction from Deaths: Netherlands", 
        subtitle = "Blue = Ttl Deaths, Red = Ttl Hospitalizations, Green = Predicted Hospitalizations",
        x = "Date", y = "Cases") +
@@ -71,7 +71,7 @@ neth %>%
 #Note: severe cases not same as hospitalizations! 
 
 #CHINA
-china = read.csv("~/Documents/School/Grad/Q3/CS472/COVID19_projections/Data/china_cases_severe_deaths_nhc.csv") %>%
+china = read.csv("~/.../COVID19_projections/Data/china_cases_severe_deaths_nhc.csv") %>%
   dplyr::select(date, severe_ttl, deaths_ttl)
 china = china[1:80,]
 
@@ -83,7 +83,7 @@ china_deaths$death_slope = NA
 
 window_size = 15 #num days to slide moving window over
 lag_days = 3
-hosp_ability = 100
+c = 100
 for(i in window_size:nrow(china_deaths)) {
   lm = lm(deaths_ttl ~ dateind, data = china_deaths[(i-(window_size-1)):i,])
   china_deaths$death_slope[i-lag_days] = lm$coeff[2]
@@ -95,7 +95,7 @@ china %>%
   ggplot() +
   geom_line(aes(x = date, y = deaths_ttl), color = "blue") +
   geom_line(aes(x = date, y = severe_ttl), color = "red") +
-  geom_line(aes(x = date, y = death_slope*hosp_ability), color = "green") +
+  geom_line(aes(x = date, y = death_slope*c), color = "green") +
   labs(title = "Severe Case Prediction from Deaths: China", 
        subtitle = "Blue = Ttl Deaths, Red = Ttl Severe, Green = Predicted Severe",
        x = "Date", y = "Cases") +

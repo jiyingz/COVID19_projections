@@ -1,5 +1,6 @@
 library(dplyr)
 library(ggplot2)
+#Data Source: http://data.un.org/Data.aspx?q=beds&d=WHO&f=MEASURE_CODE:WHS6_102
 
 #CLEANING
 
@@ -25,9 +26,7 @@ data %>%
   summarise(diff = max(beds) - min(beds)) %>%
   arrange(desc(diff))#there's generally not a huge increase in beds per 10k ppl over half decades... 
 
-
-
-#
+#Save data
 data_rec = data %>% 
             group_by(country_area) %>%
             arrange(desc(years)) %>%
@@ -40,4 +39,4 @@ data_rec$country_area[which(data_rec$country_area == "United States of America")
   
   
   
-write.csv(data_rec, file = "~/Documents/School/Grad/Q3/CS472/COVID19_projections/Data/beds_UNdata.csv")
+write.csv(data_rec, file = "~/.../Data/beds_UNdata.csv")

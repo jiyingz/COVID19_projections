@@ -17,5 +17,5 @@ df$countriesAndTerritories[which(df$countriesAndTerritories == "United States of
 
 names(df) = c("date", "country", "cases_ttl", "deaths_ttl")
 
-write.csv(df, file = "~/Documents/School/Grad/Q3/CS472/COVID19_projections/Data/world_cases_deaths_EUopendataportal.csv")
+write.csv(df, file = "~/.../Data/world_cases_deaths_EUopendataportal.csv")
 

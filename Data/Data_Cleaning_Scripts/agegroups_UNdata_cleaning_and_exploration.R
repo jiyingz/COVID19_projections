@@ -78,5 +78,5 @@ adjdata = data %>% left_join(data %>%
 adjdata_broad = spread(adjdata, key = agegroup, value = adjpop)
 
 
-write.csv(adjdata_broad, file = "~/Documents/School/Grad/Q3/CS472/COVID19_projections/Data/agegroups_UNdata.csv")
+write.csv(adjdata_broad, file = "~/.../Data/agegroups_UNdata.csv")
 

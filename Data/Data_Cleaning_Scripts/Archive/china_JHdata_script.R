@@ -2,12 +2,11 @@
 ### This script compiles the confirmed, recovered, and death cases of various regions in China
 ### Data updated 4/25/2020
 library(tidyverse)
-setwd("~/Documents/School/Grad/Q3/CS472/COVID19_projections/Data/")
 
 #Load data
-confirmed = read.csv2("~/Downloads/COVID-19-master/csse_covid_19_data/csse_covid_19_time_series/time_series_covid19_confirmed_global.csv", sep = ",")
-recovered = read.csv2("~/Downloads/COVID-19-master/csse_covid_19_data/csse_covid_19_time_series/time_series_covid19_recovered_global.csv", sep = ",")
-deaths = read.csv2("~/Downloads/COVID-19-master/csse_covid_19_data/csse_covid_19_time_series/time_series_covid19_deaths_global.csv", sep = ",")
+confirmed = read.csv2("~/.../csse_covid_19_data/csse_covid_19_time_series/time_series_covid19_confirmed_global.csv", sep = ",")
+recovered = read.csv2("~/.../csse_covid_19_data/csse_covid_19_time_series/time_series_covid19_recovered_global.csv", sep = ",")
+deaths = read.csv2("~/.../csse_covid_19_data/csse_covid_19_time_series/time_series_covid19_deaths_global.csv", sep = ",")
 
 #Subset for China
 confirmed_china = confirmed %>% filter(Country.Region == "China") %>% select(-c("Lat", "Long"))

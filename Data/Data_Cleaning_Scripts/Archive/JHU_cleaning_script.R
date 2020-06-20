@@ -3,9 +3,9 @@ library(dplyr)
 
 #Data source: JHU -- https://github.com/CSSEGISandData/COVID-19
 
-global_confirmed = read.csv("~/Downloads/COVID-19-master/csse_covid_19_data/csse_covid_19_time_series/time_series_covid19_confirmed_global.csv")
-global_deaths = read.csv("~/Downloads/COVID-19-master/csse_covid_19_data/csse_covid_19_time_series/time_series_covid19_deaths_global.csv")
-global_recovered = read.csv("~/Downloads/COVID-19-master/csse_covid_19_data/csse_covid_19_time_series/time_series_covid19_recovered_global.csv")
+global_confirmed = read.csv("~/Downloads/.../csse_covid_19_data/csse_covid_19_time_series/time_series_covid19_confirmed_global.csv")
+global_deaths = read.csv("~/.../csse_covid_19_data/csse_covid_19_time_series/time_series_covid19_deaths_global.csv")
+global_recovered = read.csv("~/.../csse_covid_19_data/csse_covid_19_time_series/time_series_covid19_recovered_global.csv")
 
 global_confirmed = global_confirmed %>% 
                       dplyr::select(-c("Lat", "Long")) %>%
@@ -36,6 +36,6 @@ names(global)[1:3] = c("province", "country", "date")
 
 global$country[which(global$country == "United Kingdom")] = "UK"
 
-write.csv(global, file = "~/Documents/School/Grad/Q3/CS472/COVID19_projections/Data/world_cases_deaths_recovered_JHU.csv")
+write.csv(global, file = "~/.../Data/world_cases_deaths_recovered_JHU.csv")
 
 

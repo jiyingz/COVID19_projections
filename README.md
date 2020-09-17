@@ -4,12 +4,12 @@ We model the number of deaths and severe cases by country for COVID-19 and make 
 
 This is a project done for a course at Stanford University (CS472: Data Science and AI for COVID-19) in partnership with Genentech, Inc. during the Spring 2020 quarter, in the midst of the 2020 COVID-19 pandemic. We are thankful for inspiration from models by Henri Froese (https://towardsdatascience.com/infectious-disease-modelling-fit-your-model-to-coronavirus-data-2568e672dbc7) and Michael Li (https://www.covidanalytics.io/DELPHI_documentation_pdf). 
 
-The final writeup can be accessed in the file "COVID19_SELICRD_Predictions_Final_Writeup.pdf".
+The final writeup can be accessed in the file `COVID19_SELICRD_Predictions_Final_Writeup.pdf`.
 
 
 ## How to use models
 
-**Data:** Our data sources are enumerated in Section ## of our report and within the individual scripts.  
+**Data:** Our data sources are enumerated in Section 3 of our report and within the individual scripts.  
 
 The data used for the most recent script run is contained within the `/Data` folder. This data was last updated on 6/10/2020. 
 
